@@ -1,0 +1,29 @@
+[
+	{
+		"_id": "622a5fd7d09f36a8465086fb",
+		"brand": "BMW",
+		"year": 2001,
+		"country": "SPAIN",
+		"createdAt": "2022-03-10T20:30:15.112Z",
+		"updatedAt": "2022-03-10T20:30:15.112Z",
+		"__v": 0
+	},
+	{
+		"_id": "622a5fe2d09f36a8465086fd",
+		"brand": "SEAT",
+		"year": 2002,
+		"country": "SPAIN",
+		"createdAt": "2022-03-10T20:30:26.608Z",
+		"updatedAt": "2022-03-10T20:30:26.608Z",
+		"__v": 0
+	},
+	{
+		"_id": "622a601ad09f36a8465086ff",
+		"brand": "MERCEDES-BENZ",
+		"year": 2015,
+		"country": "GERMANY",
+		"createdAt": "2022-03-10T20:31:22.588Z",
+		"updatedAt": "2022-03-10T20:31:22.588Z",
+		"__v": 0
+	}
+]
