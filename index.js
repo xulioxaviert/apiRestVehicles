@@ -45,7 +45,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:4200",
-      "https://the-star-wars-api-seven.vercel.app/",
+      "https://the-star-wars-api-omega.vercel.app",
     ],
     credentials: true,
   })
