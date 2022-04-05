@@ -40,10 +40,16 @@ app.use((req, res, next) => {
 });
 
 // Config de Proxies + CORS -> Meter vuestros dominios ej: http://minicodelab.dev
-app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:4200'],
-    credentials: true
-}));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:4200",
+      "https://the-star-wars-api-seven.vercel.app/",
+    ],
+    credentials: true,
+  })
+);
 
 // Límite de flujo de información
 app.use(express.json({ limit: '5mb' }))
